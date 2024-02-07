@@ -1,4 +1,7 @@
 package com.example.movieapp
 
-class MyApplication {
+
+@HiltAndroidApp
+
+class MyApplication:Application() {
 }
